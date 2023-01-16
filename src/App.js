@@ -50,7 +50,12 @@ export default function App() {
 
   return (
     <div className="app">
-      <p>Built with ❤️ by AbdulQaadir </p>
+      <p>
+        Built with ❤️ by{" "}
+        <a href="https://www.linkedin.com/in/quadri-lateef-b45044171/">
+          AbdulQaadir
+        </a>{" "}
+      </p>
       <h1>Paste text here</h1>
       <textarea
         value={text}
